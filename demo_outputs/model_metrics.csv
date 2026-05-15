@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score
+VGG16,0.852,0.854,0.852,0.853
+ResNet50,0.895,0.897,0.894,0.895
+MobileNetV2,0.847,0.843,0.847,0.845
+Xception,0.913,0.915,0.913,0.914

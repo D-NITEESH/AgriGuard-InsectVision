@@ -1,0 +1,4 @@
+Method,Accuracy,Precision,Recall,F1-Score
+Soft Voting,0.928,0.928,0.927,0.927
+Hard Voting,0.915,0.915,0.913,0.914
+Weighted Average,0.932,0.932,0.931,0.931

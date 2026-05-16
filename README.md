@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a comprehensive deep learning solution for multi-class insect detection in agricultural environments. AgriGuard: InsectVision implements transfer learning with multiple CNN architectures (VGG16, ResNet50, MobileNetV2, Xception) and ensemble methods to achieve 93.2% accuracy on 15-class insect classification.
+This repository contains a comprehensive deep learning solution for multi-class insect detection in agricultural environments. AgriGuard: InsectVision implements transfer learning with multiple CNN architectures (VGG16, ResNet50, MobileNetV2, Inception) and ensemble methods to achieve 93.2% accuracy on 15-class insect classification.
 
 ## Contents
 

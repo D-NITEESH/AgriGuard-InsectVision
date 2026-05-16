@@ -87,20 +87,20 @@ Example:
 ## Areas for Contribution
 
 ### High Priority
-- ✅ Support for additional CNN architectures (EfficientNet, DenseNet)
-- ✅ Automated hyperparameter tuning
-- ✅ Cross-validation framework
-- ✅ Real-time inference API
+-  Support for additional CNN architectures (EfficientNet, DenseNet)
+-  Automated hyperparameter tuning
+-  Cross-validation framework
+-  Real-time inference API
 
 ### Medium Priority
-- 📊 Additional ensemble methods (Voting variants, Blending)
-- 📊 Class imbalance handling (SMOTE, weighted loss)
-- 📊 Explainability (LIME, SHAP)
+-  Additional ensemble methods (Voting variants, Blending)
+-  Class imbalance handling (SMOTE, weighted loss)
+-  Explainability (LIME, SHAP)
 
 ### Nice to Have
-- 🎨 Web UI for inference
-- 🎨 Model compression (quantization, pruning)
-- 🎨 Multi-GPU support optimization
+-  Web UI for inference
+-  Model compression (quantization, pruning)
+-  Multi-GPU support optimization
 
 ## Code of Conduct
 
@@ -114,7 +114,7 @@ Example:
 - Open an issue with [QUESTION] tag
 - Check existing documentation first
 
-Thank you for contributing! 🌱
+Thank you for contribution.
 
 ---
 

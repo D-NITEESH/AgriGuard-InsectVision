@@ -18,7 +18,7 @@ This repository contains a comprehensive deep learning solution for multi-class 
 - **VGG16** — 85.2% accuracy
 - **ResNet50** — 89.5% accuracy  
 - **MobileNetV2** — 84.7% accuracy
-- **Xception** — 91.3% accuracy (best individual model)
+- **Inception** — 91.3% accuracy (best individual model)
 - **Ensemble (Weighted Average)** — 93.2% accuracy
 
 ## Setup and Usage
@@ -43,7 +43,7 @@ This loads pre-trained models and evaluates them on your test set in seconds.
 
 The notebook will automatically:
 - Load and preprocess images
-- Train 4 deep learning models (VGG16, ResNet50, MobileNetV2, Xception)
+- Train 4 deep learning models (VGG16, ResNet50, MobileNetV2, Inception)
 - Generate confusion matrices and performance metrics
 - Compare model accuracies
 - Create ensemble predictions using soft voting, hard voting, and stacking
@@ -51,7 +51,7 @@ The notebook will automatically:
 ## Results & Outputs
 
 When you run the notebook, it generates:
-- **Trained Models**: `{model_name}.keras` files (VGG16, ResNet50, MobileNetV2, Xception)
+- **Trained Models**: `{model_name}.keras` files (VGG16, ResNet50, MobileNetV2, Inception)
 - **Training History**: CSV and JSON files with per-epoch metrics
 - **Visualizations**: 
   - Confusion matrices for each model

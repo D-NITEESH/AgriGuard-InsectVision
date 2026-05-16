@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a comprehensive deep learning solution for multi-class insect detection in agricultural environments. AgriGuard: InsectVision implements transfer learning with multiple CNN architectures (VGG16, ResNet50, MobileNetV2, Inception) and ensemble methods to achieve 93.2% accuracy on 15-class insect classification.
+This repository contains a comprehensive deep learning solution for multi-class insect detection in agricultural environments. AgriGuard: InsectVision implements transfer learning with multiple CNN architectures (VGG16, ResNet50, MobileNetV2, Xception) and ensemble methods to achieve 93.2% accuracy on 15-class insect classification.
 
 ## Contents
 
@@ -18,7 +18,7 @@ This repository contains a comprehensive deep learning solution for multi-class 
 - **VGG16** — 85.2% accuracy
 - **ResNet50** — 89.5% accuracy  
 - **MobileNetV2** — 84.7% accuracy
-- **Inception** — 91.3% accuracy (best individual model)
+- **Xception** — 91.3% accuracy (best individual model)
 - **Ensemble (Weighted Average)** — 93.2% accuracy
 
 ## Setup and Usage
@@ -43,7 +43,7 @@ This loads pre-trained models and evaluates them on your test set in seconds.
 
 The notebook will automatically:
 - Load and preprocess images
-- Train 4 deep learning models (VGG16, ResNet50, MobileNetV2, Inception)
+- Train 4 deep learning models (VGG16, ResNet50, MobileNetV2, Xception)
 - Generate confusion matrices and performance metrics
 - Compare model accuracies
 - Create ensemble predictions using soft voting, hard voting, and stacking
@@ -51,7 +51,7 @@ The notebook will automatically:
 ## Results & Outputs
 
 When you run the notebook, it generates:
-- **Trained Models**: `{model_name}.keras` files (VGG16, ResNet50, MobileNetV2, Inception)
+- **Trained Models**: `{model_name}.keras` files (VGG16, ResNet50, MobileNetV2, Xception)
 - **Training History**: CSV and JSON files with per-epoch metrics
 - **Visualizations**: 
   - Confusion matrices for each model
